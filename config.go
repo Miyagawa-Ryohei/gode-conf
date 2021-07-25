@@ -72,7 +72,7 @@ func load(confName string, confPath string) (*viper.Viper, error) {
 	return overrideConf, nil
 }
 
-func LoadTo(config *interface{},option *ConfigOption) error {
+func LoadTo(config interface{},option *ConfigOption) error {
 	conf := Load(option)
 	if err := conf.Unmarshal(config); err != nil {
 		return err
