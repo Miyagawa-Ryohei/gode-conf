@@ -1,4 +1,4 @@
-package main
+package gode_conf
 
 import (
 	"fmt"

@@ -1,4 +1,4 @@
-module github.com/Miyagawa-Ryohei/gode-conf
+module github.com/Miyagawa-Ryohei/gode_conf
 
 go 1.16
 
